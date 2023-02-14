@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blog_feature_posts",
+  "info": {
+    "displayName": "FeaturePost"
+  },
+  "options": {},
+  "attributes": {
+    "FeaturePostHeading": {
+      "type": "string"
+    },
+    "Post": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post.post"
+    }
+  }
+}
